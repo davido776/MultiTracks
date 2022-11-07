@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\MultiTracks.API\\MultiTracks.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\Core\\MTDataAccess\\MTDataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\Core\\MTDataAccess\\MTDataAccess.csproj",
+        "projectName": "MTDataAccess",
+        "projectPath": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\Core\\MTDataAccess\\MTDataAccess.csproj",
+        "packagesPath": "C:\\Users\\dologungbara\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\dologungbara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "packagesConfigPath": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\Core\\MTDataAccess\\packages.config"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\MultiTracks.API\\MultiTracks.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\MultiTracks.API\\MultiTracks.API.csproj",
+        "projectName": "MultiTracks.API",
+        "projectPath": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\MultiTracks.API\\MultiTracks.API.csproj",
+        "packagesPath": "C:\\Users\\dologungbara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\MultiTracks.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dologungbara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\Core\\MTDataAccess\\MTDataAccess.csproj": {
+                "projectPath": "C:\\Users\\dologungbara\\source\\repos\\pdp\\.net\\Core\\MTDataAccess\\MTDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using System;
+using System.Collections.Generic;
 
 public partial class Default : MultitracksPage
 {
@@ -11,6 +12,10 @@ public partial class Default : MultitracksPage
         {
             //sql.Parameters.Add("@stepID", 1);
             var data = sql.ExecuteStoredProcedureDT("GetAssessmentSteps");
+            var x = DataTableExtensions.ToDynamic(data);
+           
+            //var y = DB.Write<>(data,1);
+            
 
             assessmentItems.DataSource = data;
             assessmentItems.DataBind();
@@ -25,3 +30,5 @@ public partial class Default : MultitracksPage
         }
     }
 }
+
+

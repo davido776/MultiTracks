@@ -13,6 +13,9 @@
       <meta name="theme-color" content="#ffffff">
       <link media="all" rel="stylesheet" href="https://mtracks.azureedge.net/public/css/v22/main.min.css?v=4">
       <style type="text/css">.is-slide-hidden{position:absolute;left:-9999px;top:-9999px;display:block;}</style>
+      <link href="./styles/jquery-ui.css" rel="stylesheet" />  
+      <script src="./scripts/jquery-1.11.3.min.js"></script>  
+      <script src="./scripts/jquery-ui.js"></script>  
    </head>
    <body id="about" class="premium standard">
       <form>
